@@ -15,7 +15,7 @@
         <div id="root" >
             <div class="hero">
                 <img :src="linkImg" alt="couch">
-                <h1 :class="miaClasse[0]">{{messaggio}}</h1>
+                <h1 :class="miaClasse[0]">{{sesso == "m" ? "Benvenuto" : "Benvenuta"}}</h1>
                 <h2 :class="miaClasse[1]">{{name}}</h2> 
             </div>
              
